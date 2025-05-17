@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset=”UTF-8”>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYSELF</title>
+    <style>
+        Body {
+            Font-family: Arial, sans-serif;
+            Margin: 0;
+            Padding: 0;
+            background-repeat:repeat;
+            background-image:linear-gradient(aqua,skyblue,blue);
+            
+            
+        }
+            img{width: 140px;
+            height: auto;
+            
+            }
+        
+        
+        /* */
+        .logo {
+            Width: 140px;
+            Height: auto;
+        }
+        .main-content {
+           
+            Padding: 20px;
+            Min-height: 400px;}
+           
+        .welcome-text {
+            Text-align: center;
+            Font-size: 32px;
+            Margin-bottom: 40px;
+            Color: #e6e6e6;
+        }
+        
+        .profile-card {
+            Background-color: rgba(255, 255, 255, 0.8);
+            Border-radius: 15px;
+            Padding: 20px;
+            Max-width: 500px;
+            Color: #333;
+        }
+        .profile-title {
+            Font-weight: bold;
+            Margin-bottom: 15px;
+            text-decoration: underline;
+        }
+        .profile-info {
+            Line-height: 1.6;
+        }
+        h1{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+   
+   
+    <div class="main-content">
+        <h1 class="welcome-text"><em>QUI SUIS-JE ?</em></h1>
+        
+        
+        
+        <div class="accueil">
+            <h3>PROFIL</h3>
+            
+            <div class="profile-card">
+                <p><div class="profile-title">I-ETAT CIVIL</div>
+                <div class="profile-info">
+                    <img src="IMG_20250517_022028.jpg" alt="voici une image de moi"> <br>
+                    Nom: SANOUSSI<br>
+                    Prénom: Kamal Dine<br>
+                    Date de naissance: 05 Décembre 2007<br>
+                    Genre: Masculin<br>
+                    Diplôme: BAC<br>
+                    Numéro:+229 0142084076</div></p>
+
+                    <p><div class="profile-title">II-DESCRIPTION</div>
+                <div class="profile-info">Alors ce qu'il y a dire sur moi c'est que je n'ai jamais vu le monde de la même manière que les autres.
+                J'ai connu des moments difficiles ici bas, ma vie n'a pas toujours été facile.Mais ce que je retiens de ces moments là, c'est qu'ils 
+                m'ont rendu fort mentalement et ma détermination a atteint un niveau qui me permet d'affronter les épreuves de la vie. Après il faut 
+                également souligner que mis à part le fait d'être un passionné de l'informatique, j'aime beaucoup le football et plusieurs autres sports
+                que je pratiquent en amateur. Mon ouverture d'esprit me permet de m'entendre avec mon entourage pour en apprendre plus et mieux comprendre 
+                ce monde. J'espère atteindre l'élite et réussir ma vie.  
+                 </div></p>
+                    
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

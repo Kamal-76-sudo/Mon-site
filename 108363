@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />  
+    <title>logo</title>
+</head>
+<style>
+    body{
+        background-color: rgb(2, 2, 46);
+        font-size: large;
+        margin: 0%;
+        padding: 0px;
+        height: 100%;
+        width: 100%;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(3, 3, 36);
+        padding: 10px;
+    }
+</style>
+<body>
+    <div class="header">
+        <a href="https://etudiant.uac.bj"><img src="uac.jpg" alt="Logo UAC" class="logo"></a>
+        <div style="width: 140px;"></div>
+        <a href="https://eneam.uac.bj/show/10"><img src="eneam.jpg" alt="Logo ENEAM" class="logo"></a>
+    </div>
+</body>
+</html>

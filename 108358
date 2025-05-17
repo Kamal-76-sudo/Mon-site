@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE 3</title>
+    <style>
+        Body {
+            Font-family: Arial, sans-serif;
+            background-image:linear-gradient(to bottom right,aqua,blue);
+            Margin: 0;
+            Padding: 20px;
+        }
+        h2 { text-align: center;
+
+        }
+       
+        .registration-container {
+            Max-width: 800px;
+            Margin: 0 auto;
+            Background-color: #a3c6e3;
+            Padding: 20px;
+            Border-radius: 5px;
+        }
+        .title {
+            Text-align: center;
+            Font-size: 32px;
+            Font-style: italic;
+            Margin-bottom: 20px;
+            Font-weight: bold;
+            Color: #000;
+        }
+        .section {
+            Margin-bottom: 20px;
+            Padding: 15px;
+            Background-color: rgba(255, 255, 255, 0.1);
+            Border-radius: 8px;
+        }
+        .section-title {
+            Text-align: center;
+            Font-size: 18px;
+            Margin-bottom: 15px;
+            Font-weight: bold;
+            Border-bottom: 1px solid #76a0c4;
+            Padding-bottom: 5px;
+        }
+        .form-row {
+            Display: flex;
+            Flex-wrap: wrap;
+            Margin-bottom: 15px;
+        }
+        .form-group {
+            Flex: 1;
+            Min-width: 200px;
+            Margin-right: 15px;
+            Margin-bottom: 10px;
+        }
+        .form-group:last-child {
+            Margin-right: 0;
+        }
+        Label {
+            
+            display:flex;
+            align-items: center;
+            margin-bottom: 8px;
+            Font-style: italic;
+        }
+        Input[type="text"], input[type="email"], input[type="date"], input[type="tel"], select, textarea {
+            Width: 100%;
+            Padding: 8px;
+            Border: 1px solid #ccc;
+            Border-radius: 4px;
+            Box-sizing: border-box;
+        }
+        Textarea {
+            Height: 70px;
+        }
+        .radio-group {
+            display:flex;
+            align-items: center;
+            margin-bottom: 8px;
+            Flex-wrap: wrap;
+            Gap: 15px;
+        }
+        .checkbox {
+            display:flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .radio-option input {
+            Margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="registration-container">
+        <h1 class="title">STUDENT REGISTRATION</h1>
+        
+        <div class="section">
+            <h2 class="section-title">Civil Status</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="first-names">First names:</label>
+                    <input type="text" id="first-names" placeholder="Enter your first names">
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="dob">Date of birth:</label>
+                    <input type="date" id="dob" >
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="Enter your email address">
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="sex">Sex:</label>
+                    <select id="sex">
+                        <option value="">--Choose--</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Contacts:</label>
+                    <input type="tel" id="phone" placeholder="Your phone number">
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Diploma</h2>
+            <div class="radio-group">
+                <div class="checkbox">
+                    <input type="checkbox" id="cep" name="diploma">
+                    <label for="cep">CEP</label><br/>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="bepc" name="diploma">
+                    <label for="bepc">BEPC</label><br/>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="bac" name="diploma">
+                    <label for="bac">BAC</label><br/>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="license" name="diploma">
+                    <label for="license">License</label><br/>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="master" name="diploma">
+                    <label for="master">Master</label><br/>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="doctorate" name="diploma">
+                    <label for="doctorate">Doctorate</label><br/>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="aggregation" name="diploma">
+                    <label for="aggregation">Aggregation</label><br/>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Your address</h2>
+            <div class="form-group">
+                <textarea id="address"></textarea>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Country</h2>
+            <div class="radio-group">
+                <div class="radio-option">
+                    <input type="radio" id="benin" name="country">
+                    <label for="benin">Benin</label>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" id="japan" name="country">
+                    <label for="japan">Japan</label>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" id="canada" name="country">
+                    <label for="canada">Canada</label>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" id="other" name=">
+                    <label for="other">Other</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

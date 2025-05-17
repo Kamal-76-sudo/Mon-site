@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Ma première page</title>
+</head>
+<style>
+    h1{
+         color: rgb(2, 2, 51);
+         background:linear-gradient(to bottom right, hsl(61, 98%, 49%), #ffae00);
+         font-size: xx-large;
+         font-weight: bold;
+         box-sizing: border-box;
+         border-radius: calc(20%);
+         text-align: center;
+         border: 4px solid;
+    }
+    p{
+        color: black;
+        font-size: large;
+    }
+    body{
+        margin: 0;
+      background: linear-gradient(to bottom right, aqua, blue);
+      height: 100vh;
+      padding-top: 40px;
+    }    
+        
+    
+</style>
+<body>
+    <h1><strong>BIENVENUE SUR MON SITE!</strong></h1>
+    <p>
+       <em> Bonjour et bienvenue sur mon site ! Je me nomme SANOUSSI Kamal Dine.</em>
+    </p>
+    <p>
+        <em>Ceci est un site que j'ai écris à titre académique.Sur ce site vous allez découvrir mes débuts en web design.</em>
+    </p>
+</body>
+</html>

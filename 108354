@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            background:linear-gradient(to bottom right, aqua, blue);
+        }
+        
+        .entete {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .nom {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .contact {
+            margin-bottom: 20px;
+        }
+        
+        .contact-info {
+            margin: 5px 0;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        .section-titre {
+            font-size: 22px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        
+        .education-item {
+            margin-bottom: 15px;
+        }
+        
+        .periode {
+            font-style: italic;
+            color: #666;
+        }
+        
+        .competence-item {
+            display: inline-block;
+            margin-right: 15px;
+        }
+        
+        .loisirs-liste {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="entete">
+        <div class="nom">SANOUSSI Kamal Dine</div>
+    </div>
+
+    <div class="contact">
+        <div class="contact-info"><strong>Nationalité:</strong> Béninoise</div>
+        <div class="contact-info"><strong>E-mail:</strong> sanoussikamal76@gmail.com</div>
+        <div class="contact-info"><strong>Téléphone:</strong> 0142084076</div>
+        <div class="contact-info"><strong>Âge:</strong> 17 ans</div>
+    </div>
+
+    <div class="section">
+        <div class="section-titre">Formation</div>
+        
+        <div class="education-item">
+            <div class="formation-nom">1ere année universitaire: ENEAM</div>
+            <div class="periode">2024-2025 (actuellement)</div> <br>
+            
+      
+        
+        <div class="education-item">
+            <div class="formation-nom">Cours secondaire 2e cycle</div>
+            <div class="periode">2021-2024</div>
+        </div>
+        
+        <div class="education-item">
+            <div class="formation-nom">Cours secondaire 1er cycle</div>
+            <div class="periode">2017-2021</div>
+        </div>
+        
+        <div class="education-item">
+            <div class="formation-nom">Cours primaire</div>
+            <div class="periode">2009-2017</div>
+        </div>
+        <div class="section-titre">DIPLOMES OBTENUS</div>
+        <div class="education-item">
+            <div class="formation-nom">CEP</div>
+            <div class="periode">ANNEE:2016-2017</div> <br>
+            <div class="education-item">
+                <div class="formation-nom">BEPC</div>
+                <div class="periode">ANNEE:2020-2021</div> <br>
+                    <div class="education-item">
+                        <div class="formation-nom">BACCALAUREAT</div>
+                        <div class="periode">ANNEE:2023-2024</div> <br>
+                
+            
+    </div>
+
+    <div class="section">
+        <div class="section-titre">Compétences linguistiques</div>
+        <div class="competence-item">Français</div>
+        <div class="competence-item">Anglais</div>
+        <div class="competence-item">Fon</div>
+    </div>
+
+    <div class="section">
+        <div class="section-titre">Loisirs</div>
+        <ul class="loisirs-liste">
+            <li>Jeux vidéo</li>
+            <li>Mangas</li>
+            <li>Football</li>
+            <li>Tennis</li>
+
+        </ul>
+    </div>
+</body>
